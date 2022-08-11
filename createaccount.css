@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+.contenedor{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 450px;
+}
+
+.titulo{
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tituloprincipal{
+    font-size: x-large;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.subtitulo{
+    font-size: 0.67rem;
+    font-weight: 500;
+    color: grey;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    align-items: stretch;
+    gap: 20px;
+}
+
+input{
+    width: 50%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid lightgray;
+    padding: 10px 10px;
+    border-radius: 2px;
+    outline: none;
+    font-size: 9pt;
+}
+
+.botones{
+    width: 54%;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    align-items: stretch;
+    gap: 15px;
+    padding-top: 20px;
+}
+
+.btn-create{
+    background-color: black;
+    color: #ddd;
+    border-radius: 15px;
+    font-size: 8pt;
+    padding: 8px;
+    font-weight: 600;
+}
+
+.btn-google{
+    background-color: transparent;
+    border-radius: 15px;
+    font-size: 8pt;
+    padding: 8px;
+    border: 1px solid black;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+ 
+.btn-google picture{
+    width: 25px;
+    height: 5px;
+    background-color: white;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-google picture img{
+    width: 75%;
+}
+
+.btn-create:hover{
+    cursor: pointer;
+    opacity: 0.75;
+}
+
+.btn-google:hover{
+    cursor: pointer;
+    opacity: 0.75;
+    border-bottom: 2px solid black;
+}
